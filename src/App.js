@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Landing from './components/Landing'
+import Products from './components/Products';
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
     <Navbar />
     <div className="flex flex-col h-screen">
       <Landing />
+     
     </div>
+    <Products />
     </>
   );
 }
