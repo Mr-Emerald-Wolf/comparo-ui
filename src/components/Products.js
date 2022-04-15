@@ -7,7 +7,7 @@ function Products() {
 
         <section className="bg-stone-50 dark:bg-slate-900">
             <div className="p-4 pt-6">
-                <h1 className="text-6xl text-center dark:text-slate-200">Essential Products</h1>
+                <h1 className="text-6xl lg:text-7xl text-center dark:text-slate-200">Essential Products</h1>
             </div>
             <div className="p-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 mx-auto">
 
