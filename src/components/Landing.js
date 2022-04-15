@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useCallback }  from 'react';
 import Products from './Products';
+import {useNavigate} from 'react-router-dom';
+
 
 
 export default function Landing() {
+    const navigate = useNavigate();
+    const handleOnClick = useCallback(() =>  navigate(`/search/${document.getElementById('search').value}`, { replace: true }), [navigate]); 
+
     return (
         <>
             <section className="flex h-screen flex-col items-center px-6 lg:px-32 bg-white dark:bg-black justify-center ">
@@ -16,9 +21,9 @@ export default function Landing() {
                 </main>
 
                 <div className="pt-2 relative mx-auto text-gray-600">
-                    <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+                    <input id="search" className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
                         type="search" name="search" placeholder="Search" />
-                    <button type="submit" className="absolute right-0 top-0 mt-5 mr-4">
+                    <button type="submit" className="absolute right-0 top-0 mt-5 mr-4" onClick={handleOnClick}>
                         <svg className="text-gray-600 h-4 w-4 fill-current"
                             version="1.1" id="Capa_1" x="0px" y="0px"
                             viewBox="0 0 56.966 56.966"
