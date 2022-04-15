@@ -7,7 +7,7 @@ export default class ProductItem extends Component {
         let imageURL = this.props.imageURL;
         return (
             <>
-                <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 basis-1/4">
+                <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 p-1">
                     <a href="/#">
                         <img className="rounded-t-lg" src={imageURL} alt="" />
                     </a>
