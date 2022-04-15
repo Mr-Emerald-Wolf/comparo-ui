@@ -23,7 +23,7 @@ export class About extends Component {
                                     Team Members
                                 </h2>
                                 <p className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl">
-                                    Shivam - Front End <br/> Zeck <br/> Lut <br/> Mudit <br/>Inventory<br/>
+                                   <br/>Muhammad Imran Khan - Leader, Backend {"&"}  API Development <br/>   Shivam - Front End {"&"} UI Designer <br/> Mudit Sultania - Content Writer <br/>Suryansh Raj Pratap Singh - Marketing<br/> Riya Agrawal - Guide <br/> Pavan K - HR {"&"} Bug Tester
                                 </p>
 
                             </div>

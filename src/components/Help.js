@@ -17,7 +17,7 @@ export class Help extends Component {
                                     How to use Comparo ? 
                                 </h2>
                                 <p className="mt-1 dark:text-sky-200 text-sky-700 md:text-xl">
-                                  Just search any product to get the best price at the moment. 
+                                Search for the product of your choice and get results from major e-commerce sites selling similar products to get an idea of pricing and specification.
                                 </p>
                             </div>
                             <div className="px-6 mt-4">
@@ -25,7 +25,8 @@ export class Help extends Component {
                                     Is our data accurate ? 
                                 </h2>
                                 <p className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl">
-                                    comparocommerce@gmail.com
+                                Our data is very accurate since it combines data from major e-commerce sites who sell similar products and presents an optimal price and accurate specifications for the product.
+
                                 </p>
 
                             </div>
@@ -34,7 +35,7 @@ export class Help extends Component {
                                    What is our subscription model ?
                                 </h2>
                                 <a className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl" href="https://www.instagram.com/comparo.ecommerce/">
-                                    comparo.commerce
+                                    10 days free trial, after that 4.99$ every month.
                                 </a>
 
                             </div>
@@ -43,7 +44,7 @@ export class Help extends Component {
                                     How does it work ? 
                                 </h2>
                                 <p className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl" >
-                                    8555509495
+                                Our developers have created an algorithm to collect the live data of products from e-commerce sites and put together data of the optimal price for your products and gives you the specification of similar products as well.
                                 </p>
 
                             </div>

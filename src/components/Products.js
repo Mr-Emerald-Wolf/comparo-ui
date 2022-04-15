@@ -9,7 +9,7 @@ function Products() {
             <div className="p-4 pt-6">
                 <h1 className="text-6xl text-center dark:text-slate-200">Essential Products</h1>
             </div>
-            <div className="py-2 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 mx-auto">
+            <div className="p-4 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 mx-auto">
 
                 {products.map((element) => {
                     return (<ProductItem key={element.title} title={element.title} price={element.price} imageURL={element.image}/>)
