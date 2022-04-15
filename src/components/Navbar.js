@@ -14,7 +14,7 @@ export default function Navbar({ fixed }) {
                     </Link>
                     <ul className="items-stretch hidden space-x-3 md:flex">
                         <li className="flex">
-                            <a rel="noopener noreferrer" href="#about" className="flex items-center px-4 -mb-1 hover:text-sky-800  dark:border-transparent">Welcome User</a>
+                            <p className="flex items-center px-4 -mb-1  dark:border-transparent">Welcome User</p>
                         </li>
                         <li className="flex">
                             <Link to="/help" className="flex items-center px-4 -mb-1 hover:text-sky-800  dark:border-transparent">Help</Link>

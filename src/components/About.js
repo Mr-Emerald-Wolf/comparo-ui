@@ -4,22 +4,32 @@ export class About extends Component {
     render() {
         return (
             <>
-                <section className='bg-slate-50 dark:bg-gray-900 '>
-                    <div className='flex p-5flex-col-reverse md:flex-row '>
-                        <div className="flex p-1 items-center">
-                            <div className='container text-center mx-auto'>
-                                <h1 className="sm:text-4xl text-3xl font-medium title-font m-4 md:mb-2 md:pb-4 text-sky-900 dark:text-sky-300" >
-                                    My name is Shivam.
-                                </h1>
-                                <p className='text-sky-800 dark:text-sky-200 lg:w-2/3 mx-auto text-left md:text-xl p-1'>I am a Front End developer based in Delhi. I am a student currently pursuing my B.Tech in CSE from VIT university.</p>
-                                <p className='text-sky-800 dark:text-sky-200 lg:w-2/3 mx-auto text-left md:text-xl p-1'>Coding has always been my passion and I would love to explore new areas like ML {"&"} Competitive Programming.</p>
-                                <p className='text-sky-800 dark:text-sky-200 lg:w-2/3 mx-auto text-left md:text-xl p-1'>I love to explore new types of Speciality Coffee, play open-world games and watch Trash Taste.</p>
-                                <p className='text-sky-800 dark:text-sky-200 lg:w-2/3 mx-auto text-left md:text-xl p-1'>Right now I am currently working on projects based on React and C++.</p>
+                <section className="dark:bg-slate-800 h-screen">
+                    <div className="p-4">
+
+
+                        <div className="bg-gray-50 dark:bg-gray-900 py-6 mt-6 rounded shadow-md ">
+                            <h1 className="text-4xl md:text-6xl lg:text-9xl p-3 font-kalam font-bold dark:text-white text-black">
+                                About Us
+                            </h1>
+                            <div className="px-6">
+
+                                <p className="mt-1 dark:text-sky-200 text-sky-700 md:text-xl">
+                                    Going into an e-commerce website and spending hours upon hours comparing multiple different products, their prices, specifications etc... is an arduous cycle of hesitation and deliberation which we are all too familiar with. With Comparo®️™️ say good-bye to this hassle forever ! Comparo®️™️ allows you to select multiple items from every different e-commerce site, be it Amazon or Flipkart and provides you with a simple UI where you can compare all the different items in 1 place. As students, we may not be able to make an impact on a large enough scale but we hoped to make the road easier for others. And that is what Comparo®️™️ aims to do.
+                                </p>
                             </div>
+                            <div className="px-6 mt-4">
+                                <h2 className="title-font font-semibold text-sky-900 dark:text-white tracking-widest md:text-2xl">
+                                    Team Members
+                                </h2>
+                                <p className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl">
+                                    Shivam - Front End <br/> Zeck <br/> Lut <br/> Mudit <br/>Inventory<br/>
+                                </p>
+
+                            </div>
+
                         </div>
-                        <div className="p-1 md:w-1/2">
-                            <img className='mx-auto my-auto w-3/4 md:w-2/3 lg:w-1/2' src="./img/profile.jpg" alt="Profile" />
-                        </div>
+
                     </div>
                 </section>
             </>

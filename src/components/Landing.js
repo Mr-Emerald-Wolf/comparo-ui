@@ -11,7 +11,7 @@ export default function Landing() {
                     <h1 className="text-4xl md:text-6xl lg:text-9xl md:p-3 font-kalam font-bold dark:text-slate-300 text-black text-center">
                         Comparo
                     </h1>
-                    <p className="font-bold mb-1 lg:text-4xl text-center text-slate-700">Search for the best price today ? </p>
+                    <p className="font-bold mb-1 lg:text-4xl text-center text-slate-400">Search for the best price today ? </p>
 
                 </main>
 
