@@ -9,7 +9,6 @@ function App() {
     <Navbar />
     <div className="flex flex-col h-screen">
       <Landing />
-     
     </div>
     <Products />
     </>
