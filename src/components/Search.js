@@ -14,10 +14,10 @@ export default function Search() {
         const response = await fetch("https://comparoserver.herokuapp.com/results");
         const data = await response.json();
         setData(data);
-        console.log(data);
+        //console.log(data);
         // logs [{ name: 'Joker'}, { name: 'Batman' }]
     }
-    let [data, setData] = useState([1])
+    let [data, setData] = useState([1,2])
     useEffect(() => {
         let timeout1 = setTimeout(() => { loadData() }, 1000);
         return () => {
@@ -28,8 +28,8 @@ export default function Search() {
     //console.log(data);
     return (
         <>
-            <section className="dark:bg-slate-800 h-screen">
-                {data.length === 1 && <Spinner key={"spin"} />}
+            <section className="dark:bg-slate-800 min-h-screen">
+                {data.length === 2 && <Spinner key={"spin"} />}
                 <div className="p-4">
 
                     {data.length > 0 && (
@@ -38,11 +38,11 @@ export default function Search() {
                         <div className="bg-gray-50 dark:bg-gray-900 py-6 mt-6 rounded shadow-md ">
 
 
-                            {data.map(element => (
-                                <>
-                                    <SeachItem key={url.length} data={element} url={url} />
-                                </>
-                            ))}
+                            
+                            
+                                    <SeachItem key={url.length} data={data} url={url} />
+                                
+                            
 
 
                         </div>
