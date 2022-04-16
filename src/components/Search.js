@@ -29,7 +29,7 @@ export default function Search() {
     return (
         <>
             <section className="dark:bg-slate-800 h-screen">
-                {data.length === 0 && <Spinner key={"spin"} />}
+                {data.length === 1 && <Spinner key={"spin"} />}
                 <div className="p-4">
 
                     {data.length > 0 && (
