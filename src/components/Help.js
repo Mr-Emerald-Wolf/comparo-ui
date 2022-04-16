@@ -35,7 +35,7 @@ export class Help extends Component {
                                    What is our subscription model ?
                                 </h2>
                                 <a className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl" href="https://www.instagram.com/comparo.ecommerce/">
-                                    5 free searches everyday, after that Rs.249 every month for unrestricted access.
+                                    20 free searches everyday, after that Rs.249 every month for unrestricted access.
                                 </a>
 
                             </div>
