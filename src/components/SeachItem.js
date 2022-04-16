@@ -20,7 +20,7 @@ export default class SeachItem extends Component {
                             Price
                         </h2>
                         <p className="dark:text-sky-200 text-sky-700 leading-relaxed md:text-xl">
-                            Rs.{element[1].price}
+                            Rs.{((element[1].price))}
                         </p>
 
                     </div>

@@ -17,7 +17,7 @@ export default function Search() {
         //console.log(data);
         // logs [{ name: 'Joker'}, { name: 'Batman' }]
     }
-    let [data, setData] = useState([1,2])
+    let [data, setData] = useState([1,{"price":0}])
     useEffect(() => {
         let timeout1 = setTimeout(() => { loadData() }, 1000);
         return () => {
