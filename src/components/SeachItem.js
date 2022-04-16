@@ -7,7 +7,7 @@ export default class SeachItem extends Component {
         console.log(this.props.data);
         return (
             <>
-                <div className="bg-gray-50 dark:bg-gray-900 py-6 mt-6 rounded shadow-md ">
+                <div className="bg-gray-50 dark:bg-gray-900 py-6 mt-6 rounded ">
 
 
 
