@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+//import { useParams } from 'react-router-dom'
 import Spinner from './Spinner';
 
 export default function Search() {
-    const { url } = useParams();
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+      });
+      // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+      let url = params.url; // "some_value"
+
     async function loadData() {
         const response = await fetch("https://comparoserver.herokuapp.com/results");
         const data = await response.json();
@@ -11,7 +16,7 @@ export default function Search() {
         console.log(data);
         // logs [{ name: 'Joker'}, { name: 'Batman' }]
     }
-    let [data, setData] = useState([])
+    let [data, setData] = useState([1])
     useEffect(() => {
         loadData();
 
