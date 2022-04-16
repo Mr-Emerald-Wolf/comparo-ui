@@ -6,9 +6,9 @@
   </a>
 </p>
 
-> An app which makes online shopping a step easier to navigate.
+> An app which makes online shopping a step easier to navigate.Going into an e-commerce website and spending hours upon hours comparing multiple different products, their prices, specifications etc... is an arduous cycle of hesitation and deliberation which we are all too familiar with. With Comparo®™ say good-bye to this hassle forever ! Comparo®™ allows you to select multiple items from every different e-commerce site, be it Amazon or Flipkart and provides you with a simple UI where you can compare all the different items in 1 place.
 
-### 🏠 [Homepage](Going into an e-commerce website and spending hours upon hours comparing multiple different products, their prices, specifications etc... is an arduous cycle of hesitation and deliberation which we are all too familiar with. With Comparo®™ say good-bye to this hassle forever ! Comparo®™ allows you to select multiple items from every different e-commerce site, be it Amazon or Flipkart and provides you with a simple UI where you can compare all the different items in 1 place.)
+### 🏠 [Homepage](https://github.com/Mr-Emerald-Wolf/comparo-ui)
 
 ### ✨ [Demo](https://comparo.netlify.app/)
 
