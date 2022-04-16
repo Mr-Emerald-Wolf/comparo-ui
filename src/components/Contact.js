@@ -4,11 +4,11 @@ export class Contact extends Component {
     render() {
         return (
             <>
-                <section className="dark:bg-slate-800 h-screen">
-                    <div className="p-4">
+                <section className="dark:bg-slate-800 min-h-screen  p-2">
+                    
 
 
-                        <div className="bg-gray-50 dark:bg-gray-900 py-6 mt-6 rounded shadow-md ">
+                        <div className="bg-gray-50 dark:bg-gray-900 p-6 mt-6 rounded shadow-md ">
                             <h1 className="text-4xl md:text-6xl lg:text-9xl p-3 font-kalam font-bold dark:text-white text-black">
                                 Contact Us
                             </h1>
@@ -50,7 +50,7 @@ export class Contact extends Component {
                             </div>
                         </div>
 
-                    </div>
+                  
                 </section>
             </>
         )
